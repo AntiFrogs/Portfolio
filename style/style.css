@@ -376,7 +376,28 @@ body {
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
     justify-content: space-between;
+    transition: all 800ms ease-in;
+    -webkit-transition: all 800ms ease-in;
+    -moz-transition: all 800ms ease-in;
+    -ms-transition: all 800ms ease-in;
+    -o-transition: all 800ms ease-in;
+    opacity: 0;
+    transform: translateY(3rem);
+    -webkit-transform: translateY(3rem);
+    -moz-transform: translateY(3rem);
+    -ms-transform: translateY(3rem);
+    -o-transform: translateY(3rem);
 }
+
+.fade-in-vertical {
+    opacity: 1;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
+
 
 
 .project-title {
@@ -474,6 +495,26 @@ body {
     flex-direction: column;
     align-items: flex-start;
     gap: 0.5rem;
+    transition: all 800ms ease-in;
+    -webkit-transition: all 800ms ease-in;
+    -moz-transition: all 800ms ease-in;
+    -ms-transition: all 800ms ease-in;
+    -o-transition: all 800ms ease-in;
+    opacity: 0;
+    transform: translateX(-4rem);
+    -webkit-transform: translateX(-4rem);
+    -moz-transform: translateX(-4rem);
+    -ms-transform: translateX(-4rem);
+    -o-transform: translateX(-4rem);
+}
+
+.fade-in-horizontal {
+    opacity: 1;
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
 }
 
 .experience-timeline-item > p:first-child {
@@ -544,7 +585,7 @@ body {
     -o-transition: all 200ms ease-in ;
     color: var(--secondary-text-color);
     border-bottom: 1px solid var(--primary-highlight-color);
-
+    
 }   
 
 .contact-info-item:hover {
@@ -571,6 +612,49 @@ body {
     align-items: center;
     flex-direction: column;
     gap: 2rem;
+}
+
+.footer-greeting > svg {
+    animation: greet 3s ease-in infinite;
+    -webkit-animation: greet 3s ease-in infinite;
+}
+
+@keyframes greet {
+    0% {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(10deg);
+        -webkit-transform: rotate(10deg);
+        -moz-transform: rotate(10deg);
+        -ms-transform: rotate(10deg);
+        -o-transform: rotate(10deg);
+    }
+    50% {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(-10deg);
+        -webkit-transform: rotate(-10deg);
+        -moz-transform: rotate(-10deg);
+        -ms-transform: rotate(-10deg);
+        -o-transform: rotate(-10deg);
+    }
+    100% {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+    }
 }
 
 .footer-greeting > p {
