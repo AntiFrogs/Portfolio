@@ -1,0 +1,60 @@
+{
+    "projects" : [
+        {
+            "id": 1,
+            "title": "Ava",
+            "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, soluta.",
+            "stack": ["React js" , "Redux" , "Reacy router" , "Docker" , "Express js" , "Rest Api"],
+            "github" : "#"
+        },
+        {
+            "id": 2,
+            "title": "Admin dashboard",
+            "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, soluta.",
+            "stack": ["React js" , "React router" , "Recharts"],
+            "github" : "#"
+        },
+        {
+            "id": 3,
+            "title": "contribution to xv6",
+            "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, soluta.",
+            "stack": ["C" , "Docker" , "Make"],
+            "github" : "#"
+        }
+    ],
+
+    "experiences": [
+        {
+            "id": 1,
+            "title": "Bachelor's degree , Computer Science student",
+            "orginization": "Amirkabir University of Technology",
+            "from": "Sep 2023",
+            "till": "Present",
+            "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, soluta."
+        },
+        {
+            "id": 2,
+            "title": "React developer",
+            "orginization": "Roshan",
+            "from": "Jul 2025",
+            "till": "Aug 2025",
+            "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, soluta."
+        },
+        {
+            "id": 3,
+            "title": "Operating systems TA",
+            "orginization": "Amirkabir University of Technology",
+            "from": "Agu 2025",
+            "till": "Present",
+            "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, soluta."
+        },
+        {
+            "id": 4,
+            "title": "Data structures & Algorithms TA",
+            "orginization": "Amirkabir University of Technology",
+            "from": "Sep 2025",
+            "till": "Present",
+            "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, soluta."
+        }
+    ]
+}
