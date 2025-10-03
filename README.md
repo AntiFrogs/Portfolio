@@ -2,7 +2,7 @@
 
 Simple portfolio to show case my resume 
 
-Check the Live Demo depolyed on [Vercel](https://my-first-admin-dashboard.vercel.app/)  
+Check the Live Demo depolyed on [Github pages](https://antifrogs.github.io/Portfolio/)  
 
 ## How It's Made:
 **Tech Used:** Javascript , CSS , Html 

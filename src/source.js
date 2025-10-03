@@ -31,7 +31,7 @@ window.addEventListener("DOMContentLoaded" , async function(event) {
     let experienceToAdd = new DocumentFragment();
 
     try {
-        let response = await fetch("../data/data.json");
+        let response = await fetch("./data/data.json"); 
         if(!response.ok) throw new Error("response not ok");
         let {projects , experiences} = await response.json();
 
@@ -88,6 +88,6 @@ headerBtns[0].addEventListener("click" , function(event) {
 headerBtns[1].addEventListener("click" , function(event) {
     let a = document.createElement("a");
     a.download = "PeymanBigdeli.pdf";
-    a.href = "../data/PeymanBigdeli.pdf";
+    a.href = "/Portfolio/data/PeymanBigdeli.pdf";
     a.click();
 });
