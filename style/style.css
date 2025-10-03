@@ -348,12 +348,12 @@ body {
     margin-top: 7rem;
 }
 
-.projects-header > span  , .experience-header > span {
+.projects-header > span  , .experience-header > span , .contact-header > span {
     font-size: 1.1rem;
     color: var(--secondary-highlight-color);
 }
 
-.projects-header > h3 , .experience-header > h3 {
+.projects-header > h3 , .experience-header > h3 , .contact-header > h3 {
     font-size: 2.5rem;
 }
 
@@ -467,8 +467,6 @@ body {
     flex-direction: column;
     align-items: flex-start;
     gap: 3rem;
-
-    margin-bottom: 10rem;
 }
 
 .experience-timeline-item {
@@ -515,4 +513,47 @@ body {
 .experience-timeline-item > p:last-child {
     font-size: 0.9rem;
     color: var(--secondary-text-color);
+}
+
+.contact-container {
+    margin-top: 8rem;
+    margin-bottom: 10rem;
+}
+
+.contact-info {
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+
+.contact-info-item {
+    padding: 0.25rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 200ms ease-in ;
+    -webkit-transition: all 200ms ease-in ;
+    -moz-transition: all 200ms ease-in ;
+    -ms-transition: all 200ms ease-in ;
+    -o-transition: all 200ms ease-in ;
+    color: var(--secondary-text-color);
+    border-bottom: 1px solid var(--primary-highlight-color);
+
+}   
+
+.contact-info-item:hover {
+    transform: translateY(-0.5rem);
+    -webkit-transform: translateY(-0.5rem);
+    -moz-transform: translateY(-0.5rem);
+    -ms-transform: translateY(-0.5rem);
+    -o-transform: translateY(-0.5rem);
+    border-bottom: 5px solid var(--primary-highlight-color);
+    color: var(--primary-text-color);
 }
