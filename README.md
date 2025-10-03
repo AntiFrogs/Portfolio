@@ -17,3 +17,5 @@ The whole thing should probably be implemented in a component-based approach. So
 
 ## How to run:
 This is a simple html file. either run this in your local host or use live servers (e.g. the live server extension is available on vs code)
+
+note: The production code is different from the development. as the project is deployed on github pages. all the fetch from the source.js file won'r work in development. Please change them when you want to run this project locally or it wouldn't work.
