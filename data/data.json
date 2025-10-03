@@ -3,23 +3,23 @@
         {
             "id": 1,
             "title": "Ava",
-            "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, soluta.",
+            "desc": "An SPA minimal website for a speech to text Ai service. implemented using react supporting libaries. able to get the input in many ways.",
             "stack": ["React js" , "Redux" , "Reacy router" , "Docker" , "Express js" , "Rest Api"],
-            "github" : "#"
+            "github" : "https://github.com/AntiFrogs/Ava-project"
         },
         {
             "id": 2,
             "title": "Admin dashboard",
-            "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, soluta.",
+            "desc": "Simple SPA admin dashboard implemented with react. analatics sections implemented with Rrcharts.",
             "stack": ["React js" , "React router" , "Recharts"],
-            "github" : "#"
+            "github" : "https://github.com/AntiFrogs/dashboard"
         },
         {
             "id": 3,
             "title": "contribution to xv6",
-            "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, soluta.",
+            "desc": "contribution to the xv6 risc-v project from MIT. adding simple system calls and multi-threading to the xv6 kernel as a team of two with a friend mentioned in the Repo",
             "stack": ["C" , "Docker" , "Make"],
-            "github" : "#"
+            "github" : "https://github.com/Mohammad-Mahdi-Rostami/xv6-me-peyman"
         }
     ],
 
@@ -30,7 +30,7 @@
             "orginization": "Amirkabir University of Technology",
             "from": "Sep 2023",
             "till": "Present",
-            "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, soluta."
+            "desc": "Currently studying Computer Science at Amirkabir University of Technology. I am a 5th semster student intersted in Software engineering and system programming"
         },
         {
             "id": 2,
@@ -38,7 +38,7 @@
             "orginization": "Roshan",
             "from": "Jul 2025",
             "till": "Aug 2025",
-            "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, soluta."
+            "desc": "React js developer as an intern at Roshan. worked on a SPA interface for a speech to text Ai service project for 1 to 2 months."
         },
         {
             "id": 3,
@@ -46,15 +46,15 @@
             "orginization": "Amirkabir University of Technology",
             "from": "Agu 2025",
             "till": "Present",
-            "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, soluta."
+            "desc": "Teaching assistant for the operating systems course instructed by Dr.Zahra Gorbanali. Working as a team , on diffrenet OS related subjects such as virtualization, containerization, synchronization as well as contributing to the xv6 project."
         },
         {
             "id": 4,
             "title": "Data structures & Algorithms TA",
-            "orginization": "Amirkabir University of Technology",
+            "orginization": "   ",
             "from": "Sep 2025",
             "till": "Present",
-            "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, soluta."
+            "desc": "Teaching assistant for the operating systems course instructed by Dr.Mahsa Saadat. Holding workshops once a week on top of designing questions for them related to data structures and algorithms with a team."
         }
     ]
 }

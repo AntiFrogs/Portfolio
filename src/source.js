@@ -1,5 +1,6 @@
 let headerNavLinks = document.querySelector(".header-nav-links");
-
+let contactInfoItems = document.getElementsByClassName("contact-info-item");
+let headerBtns = document.getElementsByClassName("header-btn");
 
 const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
@@ -69,4 +70,24 @@ window.addEventListener("DOMContentLoaded" , async function(event) {
     catch(err) {
         console.error(err);
     }
-})
+});
+
+
+
+[...contactInfoItems].forEach(function(contactInfoItem) {
+    contactInfoItem.addEventListener("click" , () => {
+        window.open(contactInfoItem.dataset.contactLink , "_blank");
+    });
+});
+
+
+headerBtns[0].addEventListener("click" , function(event) {
+    document.querySelector(".contact-container").scrollIntoView({behavior: "smooth" , block: "start"});
+});
+
+headerBtns[1].addEventListener("click" , function(event) {
+    let a = document.createElement("a");
+    a.download = "PeymanBigdeli.pdf";
+    a.href = "../data/PeymanBigdeli.pdf";
+    a.click();
+});
