@@ -517,7 +517,6 @@ body {
 
 .contact-container {
     margin-top: 8rem;
-    margin-bottom: 10rem;
 }
 
 .contact-info {
@@ -556,4 +555,34 @@ body {
     -o-transform: translateY(-0.5rem);
     border-bottom: 5px solid var(--primary-highlight-color);
     color: var(--primary-text-color);
+}
+
+.footer-content {
+    margin-top: 12rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-bottom: 5rem;
+}
+
+.footer-greeting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.footer-greeting > p {
+    color: var(--secondary-text-color);
+    font-size: 1.1rem;
+}
+
+.copy-rights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--secondary-text-color);
 }
